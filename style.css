@@ -892,3 +892,17 @@ section{
     transform: translate(0, 0);
     transition: transform 0.6s ease;
 }
+
+
+.bg-hero {
+background-image:url(asset/OneDrive/pexels-rahel-r-179881530-11178478.jpg) ;
+background-size: cover;
+background-position: center;
+width: 100%;
+height: 400px;
+border-radius: 16px;
+}
+
+.color-white{
+  color: white;
+}
