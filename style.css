@@ -434,6 +434,22 @@ a {
     filter:brightness(1.2)
 }
 
+.btn {
+  background-color:maroon;
+  border: none;
+  color: white;
+  padding: 14px 48px;
+  font-size: 18px;
+  font-family: system-ui,sans sans-serif;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+  margin-top: 120px;
+  margin-left: 30px;
+}
+
 
 /*--------------------------------------------------
 🎓Header
@@ -905,4 +921,92 @@ border-radius: 16px;
 
 .color-white{
   color: white;
+}
+
+
+.title-h1 {
+  font-size: 60px;
+  padding-left: 15px;
+  margin-top: 10px;
+  }
+
+  .title-p {
+    font-size: 30px;
+     padding-left: 25px;
+     margin-top: 10px;
+  }
+
+
+  .section-produits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: beige;
+    border-radius: 16px;
+    box-shadow: 0 20px 40px rgba(36, 37, 30, 0.12);
+    padding: 32px;
+    
+
+}
+
+.m-t{
+  margin-top: 25px;
+}
+
+.section-produits h2 {
+  text-align: center;
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+
+.h2-produits{
+  font-size: 40px;
+  color: brown;
+}
+
+#produitsContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+#produitsContainer img {
+  display: block;
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+}
+
+#temoignageContainer{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.section-avis{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
+    box-shadow: 0 20px 40px rgba(36, 37, 30, 0.12);
+    padding: 32px;
+    margin-top: 25px;
+}
+
+.produits{
+  text-align: center;
+  background-color: beige;
+  font-size: 50px;
+  border-radius: 16px;
+}
+
+main{
+  background-color: beige;
+  border-radius: 16px;
 }
